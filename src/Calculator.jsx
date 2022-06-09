@@ -27,12 +27,7 @@ class Calculator extends Component {
         console.log(0 === true)
     }
 
-    handleSetOp = (e) => {
-        this.setState({
-            operator: e.target.name
-        })
-    }
-    
+
     render() {
         return (
             <div className="calculator">
